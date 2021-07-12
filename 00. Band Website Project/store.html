@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="This is a description">
+    <link rel="stylesheet" href="Style.css">
+    <script src="store.js" async></script>
+    <title>A Rocket to the Moon | Store</title>
+</head>
+<!-- MEANINGLESS ELEMENTS -> DIV and SPAN | DIV is a block that next pline surrounding the elaments, 
+    while a span is in a same line of the surrounding elements -->
+   
+<body>
+    <!-- Comprises all the HEADER -->
+    <header class="main-header"> 
+        <nav class="nav main-nav">
+            <!-- ul -> dotted list -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <h1 class="band-name band-name-larger">A Rocket To The Moon</h1>
+    </header>
+   
+    <section class="content-section store-container">
+        <h2 class="section-header">Music</h2>
+        <div class="items-whole-container">
+            <div class="item-container ">
+                <h3 class="item-title">album 1</h3>
+                <img class="item-image bigger" src="Images/album-1.jpg" alt="" style="width: 500px;">
+                <div class="item-details-container">
+                    <span class="item-price">Php 300</span>
+                    <button class="btn btn-primary item-add-button"role="button">Add to Cart</button>
+                </div>    
+            </div>    
+            <div class="item-container">
+                <h3 class="item-title">album 2</h3>
+                <img class="item-image bigger" src="Images/album-2.jpg" alt="" style="width: 500px;">
+                <div class="item-details-container">
+                    <span class="item-price">Php 400</span>
+                    <button class="btn btn-primary item-add-button" role="button">Add to Cart</button>
+                </div>
+            </div class="item-details-container">
+            <div class="item-container">
+                <h3 class="item-title">album 3</h3>
+                <img class="item-image bigger" src="Images/album-3.jpg" alt="" style="width: 500px;">
+                <div class="item-details-container">
+                    <span class="item-price">Php 350</span>
+                    <button class="btn btn-primary item-add-button" role="button">Add to Cart</button>
+                </div>
+            </div>
+            <div class="item-container">
+                <h3 class="item-title">album 4</h3>
+                <img class="item-image bigger" src="Images/album-4.jpg" alt="" style="width: 500px;">
+                <div class="item-details-container">
+                    <span class="item-price">Php 450</span>
+                    <button class="btn btn-primary item-add-button" role="button">Add to Cart</button>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <section class="content-section store-container">
+        <h2 class="section-header">Merch</h2>
+        <div class="items-whole-container">
+            <div class="item-container ">
+                <h3 class=item-title>Merch 1</h3>
+                <img class="item-image" src="Images/merch-1.jpg" alt="" >
+                <div class="item-details-container">
+                    <span class="item-price">Php 250</span>
+                    <button class="btn btn-primary item-add-button" role="button">Add to Cart</button>
+                </div>
+            </div>
+            <div class="item-container">
+                <h3 class="item-title">Merch 2</h3>
+                <img class="item-image" src="Images/merch-2.jpg" alt="">
+                <div class="item-details-container">
+                    <span class="item-price">Php 300</span>
+                    <button class="btn btn-primary item-add-button" role="button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-section container">
+        <h2 class="section-header">Cart</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="class-items">
+        </div>
+        <div class="cart-total">
+            <span class="cart-total-title">Total: </span>
+            <span class="cart-total-price">Php 0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" role="button">Purchase</button>
+    </section>
+
+
+    <footer class="main-footer ">
+        <div class="main-footer-container bdr-red">
+            <h3 class="band-name">A Rocket To The Moon</h3>
+            <ul class="nav footer-nav">
+                <li>Follow Us:</li>
+                <li><a href="https://www.facebook.com/arockettothemoon"  target="_blank">Facebook</a></li>
+                <li><a href="https://www.youtube.com/channel/UC-cZaC4wIBtObuEd0siezOA"  target="_blank">Youtube</a></li>
+                <li><a href="https://open.spotify.com/artist/1NU9Em6e8dDo36Js6nEo3t"  target="_blank">Spotify</a> </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
